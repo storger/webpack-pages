@@ -1,7 +1,7 @@
 {
-  "name": "webpack-multi-page",
+  "name": "webpack-pages",
   "version": "1.2.0",
-  "description": "webpack webpack4 multi-page multiPage multiplePage",
+  "description": "webpack webpack4 multi-page",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --mode development",
@@ -26,7 +26,6 @@
     "html-withimg-loader": "^0.1.11",
     "imagemin-mozjpeg": "^7.0.0",
     "imagemin-pngquant": "^6.0.0",
-    "jquery": "^3.3.1",
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.2",
     "optimize-css-assets-webpack-plugin": "^4.0.0",
@@ -49,6 +48,7 @@
     "webpcss": "^1.2.2"
   },
   "dependencies": {
+	"jquery": "^3.3.1",
     "noty": "^3.2.0-beta"
   }
 }
