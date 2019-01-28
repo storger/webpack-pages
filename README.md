@@ -1,9 +1,9 @@
-# [webpack-multi-page](https://github.com/lfyfly/webpack-multi-page)
+# [webpack-pages](https://github.com/storger/webpack-pages.git)
 
 ## 1、快速使用
 ### 1.1 克隆项目
 ```
-git clone https://github.com/lfyfly/webpack-multi-page.git
+git clone https://github.com/storger/webpack-pages.git
 ```
 
 ### 1.2 安装依赖
