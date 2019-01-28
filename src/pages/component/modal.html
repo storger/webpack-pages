@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>modal</title>
+</head>
+
+<body>
+	<div id="preloader">
+		<div class="canvas">
+			<div class="spinner"></div>
+		</div>
+	</div>
+	<!-- End Preloader -->
+	<div class="page">
+		<!-- Begin Page Content -->
+		<div class="page-content d-flex align-items-stretch">
+			<!-- End Left Sidebar -->
+			<div class="container-fluid">
+				<div class="row flex-row">
+					<div class="col-12">
+						<!-- Modal -->
+						<div class="widget has-shadow">
+							<div class="widget-header bordered no-actions d-flex align-items-center">
+								<h4>Modals Example</h4>
+							</div>
+							<div class="widget-body">
+								<!-- Begin Basic Modal -->
+								<div class="row">
+									<div class="col-xl-4 d-flex align-items-center mb-3">
+										<p class="text-dark mb-0">Basic Modal</p>
+									</div>
+									<div class="col-xl-8 d-flex align-items-center mb-3">
+										<button type="button" class="btn btn-shadow" data-toggle="modal" data-target="#basic-modal">Launch Modal</button>
+									</div>
+								</div>
+								<!-- End Basic Modal -->
+								<!-- Begin Scrolling Modal -->
+								<div class="row">
+									<div class="col-xl-4 d-flex align-items-center mb-3">
+										<p class="text-dark mb-0">Modal Scrolling Long Content</p>
+									</div>
+									<div class="col-xl-8 d-flex align-items-center mb-3">
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#scroll-modal">Launch Modal</button>
+									</div>
+								</div>
+								<!-- End Scrolling Modal -->
+								<!-- Begin Centered Modal -->
+								<div class="row">
+									<div class="col-xl-4 d-flex align-items-center mb-3">
+										<p class="text-dark mb-0">Vertically Centered</p>
+									</div>
+									<div class="col-xl-8 d-flex align-items-center mb-3">
+										<button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal-centered">Launch
+											Modal</button>
+									</div>
+								</div>
+								<!-- End Centered Modal -->
+								<!-- Begin Small Modal -->
+								<div class="row">
+									<div class="col-xl-4 d-flex align-items-center mb-3">
+										<p class="text-dark mb-0">Small Modal</p>
+									</div>
+									<div class="col-xl-8 d-flex align-items-center mb-3">
+										<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-small">Launch Modal</button>
+									</div>
+								</div>
+								<!-- End Small Modal -->
+								<!-- Begin Large Modal -->
+								<div class="row">
+									<div class="col-xl-4 d-flex align-items-center mb-3">
+										<p class="text-dark mb-0">Large Modal</p>
+									</div>
+									<div class="col-xl-8 d-flex align-items-center mb-3">
+										<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-large">Launch Modal</button>
+									</div>
+								</div>
+								<!-- End Large Modal -->
+								<!-- Begin Success Modal -->
+								<div class="row">
+									<div class="col-xl-4 d-flex align-items-center mb-3">
+										<p class="text-dark mb-0">Modal Validation Form</p>
+									</div>
+									<div class="col-xl-8 d-flex align-items-center mb-3">
+										<button type="button" class="btn btn-success" data-toggle="modal" data-target="#success-modal">Launch Modal</button>
+									</div>
+								</div>
+								<!-- End Success Modal -->
+								<!-- Begin Auto Close Modal -->
+								<div class="row">
+									<div class="col-xl-4 d-flex align-items-center mb-3">
+										<p class="text-dark mb-0">Modal Auto Close</p>
+									</div>
+									<div class="col-xl-8 d-flex align-items-center mb-3">
+										<button type="button" class="btn btn-gradient-01" data-toggle="modal" data-target="#delay-modal">Launch Modal</button>
+									</div>
+								</div>
+								<!-- End Auto Close Modal -->
+							</div>
+						</div>
+						<!-- End Modal -->
+					</div>
+				</div>
+				<!-- End Row -->
+			</div>
+		</div>
+		<!-- End Page Content -->
+	</div>
+	<!-- Begin Basic Modal -->
+	<div id="basic-modal" class="modal modal-top fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Modal Title</h4>
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">×</span>
+						<span class="sr-only">close</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>
+						Donec non lectus nec est porta eleifend. Morbi ut dictum augue, feugiat condimentum est. Pellentesque tincidunt
+						justo nec aliquet tincidunt. Integer dapibus tellus non neque pulvinar mollis. Maecenas dictum laoreet diam, non
+						convallis lorem sagittis nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+						Curae; Nunc venenatis lacus arcu, nec ultricies dui vehicula vitae.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-shadow" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary" id="save">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Basic Modal -->
+	<!-- Begin Scrolling Modal -->
+	<div id="scroll-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Modal Title</h4>
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">×</span>
+						<span class="sr-only">close</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>
+						Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+						Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+					</p>
+					<p>
+						Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+						rutrum faucibus dolor auctor.
+					</p>
+					<p>
+						Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+						et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+					</p>
+					<p>
+						Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+						Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+					</p>
+					<p>
+						Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+						rutrum faucibus dolor auctor.
+					</p>
+					<p>
+						Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+						et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+					</p>
+					<p>
+						Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+						Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+					</p>
+					<p>
+						Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+						rutrum faucibus dolor auctor.
+					</p>
+					<p>
+						Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+						et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+					</p>
+					<p>
+						Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+						Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+					</p>
+					<p>
+						Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+						rutrum faucibus dolor auctor.
+					</p>
+					<p>
+						Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+						et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+					</p>
+					<p>
+						Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+						Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+					</p>
+					<p>
+						Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+						rutrum faucibus dolor auctor.
+					</p>
+					<p>
+						Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+						et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+					</p>
+					<p>
+						Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+						Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+					</p>
+					<p>
+						Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet
+						rutrum faucibus dolor auctor.
+					</p>
+					<p>
+						Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur
+						et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-shadow" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Scrolling Modal -->
+	<!-- Begin Centered Modal -->
+	<div id="modal-centered" class="modal fade">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Modal Title</h4>
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">×</span>
+						<span class="sr-only">close</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>
+						Donec non lectus nec est porta eleifend. Morbi ut dictum augue, feugiat condimentum est. Pellentesque tincidunt
+						justo nec aliquet tincidunt. Integer dapibus tellus non neque pulvinar mollis. Maecenas dictum laoreet diam, non
+						convallis lorem sagittis nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+						Curae; Nunc venenatis lacus arcu, nec ultricies dui vehicula vitae.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-shadow" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Centered Modal -->
+	<!-- Begin Small Modal -->
+	<div id="modal-small" class="modal fade">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Modal Title</h4>
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">×</span>
+						<span class="sr-only">close</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>
+						Donec non lectus nec est porta eleifend. Morbi ut dictum augue, feugiat condimentum est. Pellentesque tincidunt
+						justo nec aliquet tincidunt. Integer dapibus tellus non neque pulvinar mollis. Maecenas dictum laoreet diam, non
+						convallis lorem sagittis nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+						Curae; Nunc venenatis lacus arcu, nec ultricies dui vehicula vitae.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-shadow" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Small Modal -->
+	<!-- Begin Large Modal -->
+	<div id="modal-large" class="modal fade">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Modal Title</h4>
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">×</span>
+						<span class="sr-only">close</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>
+						Donec non lectus nec est porta eleifend. Morbi ut dictum augue, feugiat condimentum est. Pellentesque tincidunt
+						justo nec aliquet tincidunt. Integer dapibus tellus non neque pulvinar mollis. Maecenas dictum laoreet diam, non
+						convallis lorem sagittis nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+						Curae; Nunc venenatis lacus arcu, nec ultricies dui vehicula vitae.
+					</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-shadow" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Large Modal -->
+	<!-- Begin Success Modal -->
+	<div id="success-modal" class="modal fade">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+					<div class="sa-icon sa-success animate" style="display: block;">
+						<span class="sa-line sa-tip animateSuccessTip"></span>
+						<span class="sa-line sa-long animateSuccessLong"></span>
+						<div class="sa-placeholder"></div>
+						<div class="sa-fix"></div>
+					</div>
+					<div class="section-title mt-5 mb-2">
+						<h2 class="text-gradient-02">Thank you!</h2>
+					</div>
+					<p class="mb-5">The form was submitted successfully</p>
+					<button type="button" class="btn btn-shadow mb-3" data-dismiss="modal">Ok</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Success Modal -->
+	<!-- Begin Auto Close Modal -->
+	<div id="delay-modal" class="modal fade">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+					<div class="sa-icon sa-success animate" style="display: block;">
+						<span class="sa-line sa-tip animateSuccessTip"></span>
+						<span class="sa-line sa-long animateSuccessLong"></span>
+						<div class="sa-placeholder"></div>
+						<div class="sa-fix"></div>
+					</div>
+					<div class="section-title mt-5 mb-2">
+						<h2 class="text-gradient-01">Hello!</h2>
+					</div>
+					<p class="mb-5">And GoodBye :)</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Auto Close Modal -->
+</body>
+
+</html>

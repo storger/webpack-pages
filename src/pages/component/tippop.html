@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>tippop</title>
+</head>
+<body>
+	<div id="preloader">
+		<div class="canvas">
+			<div class="spinner"></div>
+		</div>
+	</div>
+
+	<div class="page">
+		<!-- Begin Page Content -->
+		<div class="page-content d-flex align-items-stretch">
+				<div class="container-fluid">
+					<!-- Begin Page Header-->
+					<div class="row">
+						<div class="page-header">
+							<div class="d-flex align-items-center">
+								<h2 class="page-header-title">TooltipAndPopover</h2>
+								<div>
+									<ul class="breadcrumb">
+										<li class="breadcrumb-item"><a href="db-default.html"><i class="ti ti-home"></i></a></li>
+										<li class="breadcrumb-item"><a href="#">Components</a></li>
+										<li class="breadcrumb-item active">TooltipAndPopover</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Page Header -->
+					<div class="row flex-row">
+						<div class="col-xl-6">
+							<!-- Basic Example -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Basic Example</h4>
+								</div>
+								<div class="widget-body">
+									<div class="section-title mb-5">
+										<h4>Basic Tooltip</h4>
+									</div>
+									<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip Title">
+									  Click Me
+									</button>
+									<div class="section-title mt-5 mb-5">
+										<h4>Directions</h4>
+									</div>
+									<button type="button" class="btn btn-primary mr-2 mb-3" data-toggle="tooltip" data-placement="top" title="Tooltip Top">
+									  Tooltip On Top
+									</button>
+									<button type="button" class="btn btn-info mr-2 mb-3" data-toggle="tooltip" data-placement="right" title="Tooltip Right">
+									  Tooltip On Right
+									</button>
+									<button type="button" class="btn btn-success mr-2 mb-3" data-toggle="tooltip" data-placement="bottom" title="Tooltip Bottom">
+									  Tooltip On Bottom
+									</button>
+									<button type="button" class="btn btn-warning mb-3" data-toggle="tooltip" data-placement="left" title="Tooltip Left">
+									  Tooltip On Left
+									</button>
+									<p>Four options are available: top, right, bottom, and left aligned.</p>
+									<div class="section-title mt-5 mb-5">
+										<h4>Dismiss on next click</h4>
+									</div>
+									<button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="top" data-trigger="focus" title="Now click anywhere">
+									  Dissmissible Tooltip
+									</button>
+								</div>
+							</div>
+							<!-- End Basic Example -->
+						</div>
+						<div class="col-xl-6">
+							<!-- Advanced Example -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Advanced Example</h4>
+								</div>
+								<div class="widget-body">
+									<div class="section-title mb-5">
+										<h4>Tooltip On Click</h4>
+									</div>
+									<button type="button" class="btn btn-primary mr-2 mb-3" data-toggle="tooltip" data-placement="top" data-trigger="click" title="Tooltip Title">
+									  Tooltip Top
+									</button>
+									<button type="button" class="btn btn-info mr-2 mb-3" data-toggle="tooltip" data-placement="right" data-trigger="click" title="Tooltip Title">
+									  Tooltip Right
+									</button>
+									<button type="button" class="btn btn-success mr-2 mb-3" data-toggle="tooltip" data-placement="bottom" data-trigger="click" title="Tooltip Title">
+									  Tooltip Bottom
+									</button>
+									<button type="button" class="btn btn-warning mb-3" data-toggle="tooltip" data-placement="left" data-trigger="click" title="Tooltip Title">
+									  Tooltip Left
+									</button>
+									<p>Use <code>data-trigger="click"</code> for click trigger.</p>
+									<div class="section-title mt-5 mb-5">
+										<h4>With Delay</h4>
+									</div>
+									<button type="button" class="btn btn-danger mr-2 mb-3" data-toggle="tooltip" data-placement="top" data-trigger="click" title="Tooltip Title" data-delay="800">
+									  Click Me
+									</button>
+									<p>Use <code>data-delay="value"</code> in milliseconds.</p>
+									<div class="section-title mt-5 mb-5">
+										<h4>With HTML Content</h4>
+									</div>
+									<button type="button" class="btn btn-gradient-01 mb-3" data-toggle="tooltip" data-placement="top" data-original-title="This is <b>HTML</b> <u>tooltip</u>" data-html="true">
+									  HTML Tooltip
+									</button>
+								</div>
+							</div>
+							<!-- End Advanced Example -->
+						</div>
+					</div>
+					<!-- End Row -->
+											<!-- End Page Header -->
+					<div class="row flex-row">
+						<div class="col-xl-6">
+							<!-- Basic Example -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Basic Example</h4>
+								</div>
+								<div class="widget-body">
+									<div class="section-title mb-5">
+										<h4>Basic Popovers</h4>
+									</div>
+									<button type="button" class="btn btn-primary" data-toggle="popover" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Click me
+									</button>
+									<div class="section-title mt-5 mb-5">
+										<h4>Directions</h4>
+									</div>
+									<button type="button" class="btn btn-primary mr-2 mb-3" data-toggle="popover" data-placement="top" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Popover On Top
+									</button>
+									<button type="button" class="btn btn-info mr-2 mb-3" data-toggle="popover" data-placement="right" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Popover On Right
+									</button>
+									<button type="button" class="btn btn-success mr-2 mb-3" data-toggle="popover" data-placement="bottom" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Popover On Bottom
+									</button>
+									<button type="button" class="btn btn-warning mb-3" data-toggle="popover" data-placement="left" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Popover On Left
+									</button>
+									<p>Four options are available: top, right, bottom, and left aligned.</p>
+									<div class="section-title mt-5 mb-5">
+										<h4>Dismiss on next click</h4>
+									</div>
+									<button type="button" class="btn btn-danger" data-toggle="popover" data-trigger="focus" data-content="Now click somewhere else.">
+									  Dissmissible Popover
+									</button>
+								</div>
+							</div>
+							<!-- End Basic Example -->
+						</div>
+						<div class="col-xl-6">
+							<!-- Advanced Example -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Advanced Example</h4>
+								</div>
+								<div class="widget-body">
+									<div class="section-title mb-5">
+										<h4>Popovers On Hover</h4>
+									</div>
+									<button type="button" class="btn btn-primary mr-2 mb-3" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Popover On Top
+									</button>
+									<button type="button" class="btn btn-info mr-2 mb-3" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Popover On Right
+									</button>
+									<button type="button" class="btn btn-success mr-2 mb-3" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Popover On Bottom
+									</button>
+									<button type="button" class="btn btn-warning mb-3" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Popover On Left
+									</button>
+									<p>Use <code>data-trigger="hover"</code> for hover trigger.</p>
+									<div class="section-title mt-5 mb-5">
+										<h4>Popovers With Title</h4>
+									</div>
+									<button type="button" class="btn btn-primary mr-2 mb-3" data-toggle="popover" title="Popover Title" data-placement="top" data-content="Pellentesque sed ante id mauris varius imperdiet. Aenean laoreet nisi est, sit amet eleifend nulla semper non.">
+									  Click Me
+									</button>
+									<div class="section-title mt-5 mb-5">
+										<h4>With HTML Content</h4>
+									</div>
+									<button type="button" class="btn btn-gradient-01 mr-2 mb-3" data-toggle="popover" data-original-title="This is <b>HTML</b> <u>Popover</u>" data-placement="top" data-content="<b>Pellentesque</b> sed ante id mauris varius imperdiet.<br><br>Aenean laoreet nisi est, sit amet <code>.eleifend</code> nulla semper non." data-html="true">
+									  HTML Popover
+									</button>
+								</div>
+							</div>
+							<!-- End Advanced Example -->
+						</div>
+					</div>
+					<!-- End Row -->
+				</div>
+		</div>
+		<!-- End Page Content -->
+	</div>
+</body>
+</html>

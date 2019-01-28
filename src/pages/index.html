@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>管理系统</title>
+	<base href="./"></base>
+	<link rel="shortcut icon" href="./static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div class="page db-modern">
+        <header class="header">
+            <nav class="navbar">
+                <!-- Begin Topbar -->
+                <div class="navbar-holder align-items-center align-middle">
+                    <!-- Begin Logo -->
+                    <div class="navbar-header pull-left">
+                        <a href="#" class="navbar-brand">
+                            <div class="brand-image brand-big">
+                                <img src="../assets/img/logo.png" alt="logo" style="width: 70px;" class="logo-big">
+                            </div>
+                            <div class="brand-image brand-small">
+                                <img src="../assets/img/logo.png" alt="logo" class="logo-small">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                    <div class="horizontal-menu pull-left">
+                        <div class="row">
+                            <nav class="navbar navbar-light navbar-expand-md main-menu">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li><a href="#home">首页</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="dashboard" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">UI</a>
+                                            <ul class="dropdown-menu" aria-labelledby="dashboard" style="display: none;">
+                                                <li><a href="#modal">弹出层</a></li>
+                                                <li><a href="#button">按钮</a></li>
+                                                <li><a href="#alert">提示</a></li>
+                                                <li><a href="#progress">进度条</a></li>
+                                                <li><a href="#tabs">tab页</a></li>
+                                                <li><a href="#tippop">提示框</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="components" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">组件</a>
+                                            <ul class="dropdown-menu" aria-labelledby="components" style="display: none;">
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" id="tables" role="button" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expande4d="false"><i class="la la-list-alt"></i><span>表单</span></a>
+                                                    <ul class="dropdown-menu" aria-labelledby="tables">
+                                                        <li><a href="#baseform">基础表单</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a class="dropdown-toggle" id="tables" role="button" data-toggle="dropdown"
+                                                        aria-haspopup="true" aria-expanded="false"><i class="la la-th-large"></i><span>表格</span></a>
+                                                    <ul class="dropdown-menu" aria-labelledby="tables">
+                                                        <li><a href="#datatable">datatable表格</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+										<li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="pages" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">页面</a>
+                                            <ul class="dropdown-menu" aria-labelledby="pages" style="display: none;">
+                                                <li><a href="./page/login.html">登录页</a></li>
+                                            	<li><a href="./page/404.html">404</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- Begin Navbar Menu -->
+                    <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center pull-right">
+                        <!-- Begin Notifications -->
+                        <li class="nav-item dropdown"><a id="notifications" rel="nofollow" data-target="#" href="#"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i
+                                    class="la la-bell animated infinite swing"></i><span class="badge-pulse"></span></a>
+                            <ul aria-labelledby="notifications" class="dropdown-menu notification">
+                                <li>
+                                    <div class="notifications-header">
+                                        <div class="title">通知 (4)</div>
+                                        <div class="notifications-overlay"></div>
+                                        <img src="../assets/img/notifications/01.jpg" alt="..." class="img-fluid">
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="message-icon">
+                                            <i class="la la-user"></i>
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                新用户注册
+                                            </div>
+                                            <span class="date">2 小时前</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="message-icon">
+                                            <i class="la la-calendar-check-o"></i>
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                添加新事件
+                                            </div>
+                                            <span class="date">7 小时前</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="message-icon">
+                                            <i class="la la-history"></i>
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                服务器重启
+                                            </div>
+                                            <span class="date">7 小时前</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="message-icon">
+                                            <i class="la la-twitter"></i>
+                                        </div>
+                                        <div class="message-body">
+                                            <div class="message-body-heading">
+                                                您有三个新的关注者
+                                            </div>
+                                            <span class="date">10 小时前</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a rel="nofollow" id="msgbox" href="javascript:;" class="dropdown-item all-notifications text-center">所有通知</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- End Notifications -->
+                        <!-- User -->
+                        <li class="nav-item dropdown"><a id="user" rel="nofollow" data-target="#" href="#" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false" class="nav-link"><img src="../assets/img/avatar/avatar-01.jpg"
+                                    alt="..." class="avatar rounded-circle"></a>
+                            <ul aria-labelledby="user" class="user-size dropdown-menu">
+                                <li class="welcome">
+                                    <a href="#" class="edit-profil"><i class="la la-gear"></i></a>
+                                    <img src="../assets/img/avatar/avatar-01.jpg" alt="..." class="rounded-circle">
+                                </li>
+                                <li>
+                                    <a href="pages-profile.html" class="dropdown-item">
+                                        用户资料
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="app-mail.html" class="dropdown-item">
+                                        消息
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item no-padding-bottom">
+                                        设置
+                                    </a>
+                                </li>
+                                <li class="separator"></li>
+                                <li>
+                                    <a href="pages-faq.html" class="dropdown-item no-padding-top">
+                                        帮助
+                                    </a>
+                                </li>
+                                <li><a rel="nofollow" href="pages-login.html" class="dropdown-item logout text-center"
+                                        data-toggle="tooltip" data-placement="top" title="退出登录"><i class="ti-power-off"></i></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- End User -->
+                    </ul>
+                    <!-- End Navbar Menu -->
+                </div>
+                <!-- End Topbar -->
+            </nav>
+        </header>
+        <main id="main">
+
+        </main>
+    </div>
+</body>
+</html>

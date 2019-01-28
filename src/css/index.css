@@ -1,0 +1,33 @@
+.page {
+	height: 100%;
+}
+
+#main {
+	height: calc(100% - 71px);
+	overflow-y: hidden;
+}
+
+#main iframe {
+	outline: none;
+	border: none;
+	height: calc(100% - 1px);
+	width: 100%;
+}
+
+/*#main iframe.hide {
+	display: block;
+}*/
+
+.horizontal-menu .navbar-nav>li {
+	padding: 0 .5rem;
+}
+.horizontal-menu .dropdown-menu>li>a {
+	padding: 0.8rem 1.07rem !important;
+}
+.horizontal-menu .navbar-nav>li>a {
+	padding: 1.8rem 1.07rem !important;
+}
+
+.horizontal-menu .main-menu .collapse ul>li.active>a {
+	color: #e76c90;
+}

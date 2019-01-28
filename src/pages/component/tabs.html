@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>tabs</title>
+</head>
+<body>
+	<div id="preloader">
+		<div class="canvas">
+			<div class="spinner"></div>
+		</div>
+	</div>
+
+	<div class="page">
+		<!-- Begin Page Content -->
+		<div class="page-content d-flex align-items-stretch">
+				<div class="container-fluid">
+					<!-- Begin Page Header-->
+					<div class="row">
+						<div class="page-header">
+							<div class="d-flex align-items-center">
+								<h2 class="page-header-title">Tabs</h2>
+								<div>
+									<ul class="breadcrumb">
+										<li class="breadcrumb-item"><a href="db-default.html"><i class="ti ti-home"></i></a></li>
+										<li class="breadcrumb-item"><a href="#">Components</a></li>
+										<li class="breadcrumb-item active">Tabs</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Page Header -->
+					<div class="row flex-row">
+						<div class="col-xl-6">
+							<!-- Basic Tabs -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Basic Tabs</h4>
+								</div>
+								<div class="widget-body sliding-tabs">
+									<ul class="nav nav-tabs" id="example-one" role="tablist">
+										<li class="nav-item">
+											<a class="nav-link active" id="base-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true">Tab 1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="base-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false">Tab 2</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="base-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false">Tab 3</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link disabled">Disabled</a>
+										</li>
+									</ul>
+									<div class="tab-content pt-3">
+										<div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="base-tab-1">
+											Mauris venenatis rutrum augue vulputate fringilla. Aliquam euismod tempor neque. Ut urna tortor, mattis vitae gravida in, consectetur at est. Nulla eu purus et justo porttitor luctus. Cras sed urna vitae quam interdum varius vel sollicitudin lectus. Proin ullamcorper lacinia justo, eget porta odio egestas sed.
+										</div>
+										<div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="base-tab-2">
+											Nam sagittis nec velit vitae molestie. Donec eget luctus sem. Nullam tortor tortor, consequat id lacinia nec, tempus in diam. Phasellus vel molestie purus, ac hendrerit risus. Phasellus non purus lacinia purus fringilla hendrerit. Sed pharetra odio a ante volutpat aliquam id non lacus.
+										</div>
+										<div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="base-tab-3">
+											Phasellus elementum ultricies venenatis. Vivamus eget semper ligula. Suspendisse efficitur est ac nisl sollicitudin, ac venenatis libero faucibus. Curabitur dictum pulvinar dui, nec posuere sapien condimentum in. Sed ornare enim quis enim pretium, tempus maximus dolor scelerisque.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End Basic Tabs -->
+						</div>
+						<div class="col-xl-6">
+							<!-- Tabs Dropdown -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Tabs Dropdown</h4>
+								</div>
+								<div class="widget-body">
+									<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item">
+											<a class="nav-link active" id="drop-tab-1" data-toggle="tab" href="#d-tab-1" role="tab" aria-selected="true">Tab 1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="drop-tab-2" data-toggle="tab" href="#d-tab-2" role="tab" aria-selected="false">Tab 2</a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												Dropdown
+												<i class="ion-android-arrow-dropdown"></i>
+											</a>
+											<div class="dropdown-menu">
+												<a class="dropdown-item" id="nav-dropdown1-tab" href="#nav-dropdown1" role="tab" data-toggle="tab">Dropdown 1</a>
+												<a class="dropdown-item" id="nav-dropdown2-tab" href="#nav-dropdown2" role="tab" data-toggle="tab">Dropdown 2</a>
+											</div>
+										</li>
+									</ul>
+									<div class="tab-content pt-3">
+										<div class="tab-pane fade show active" id="d-tab-1" role="tabpanel" aria-labelledby="drop-tab-1">
+											Nam sagittis nec velit vitae molestie. Donec eget luctus sem. Nullam tortor tortor, consequat id lacinia nec, tempus in diam. Phasellus vel molestie purus, ac hendrerit risus. Phasellus non purus lacinia purus fringilla hendrerit. Sed pharetra odio a ante volutpat aliquam id non lacus.
+										</div>
+										<div class="tab-pane fade" id="d-tab-2" role="tabpanel" aria-labelledby="drop-tab-2">
+											Mauris venenatis rutrum augue vulputate fringilla. Aliquam euismod tempor neque. Ut urna tortor, mattis vitae gravida in, consectetur at est. Nulla eu purus et justo porttitor luctus. Cras sed urna vitae quam interdum varius vel sollicitudin lectus. Proin ullamcorper lacinia justo, eget porta odio egestas sed.
+										</div>
+										<div class="tab-pane fade" id="nav-dropdown1" role="tabpanel" aria-labelledby="nav-dropdown1-tab">
+											Deserunt officia id Lorem nostrud aute id commodo elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad irure in labore cillum elit enim. Consequat aliquip incididunt ipsum et minim laborum laborum laborum et cillum labore.
+										</div>
+										<div class="tab-pane fade" id="nav-dropdown2" role="tabpanel" aria-labelledby="nav-dropdown2-tab">
+											Proident incididunt esse qui ea nisi ullamco aliquip nostrud velit sint duis. Aute culpa aute cillum sit consectetur mollit minim non reprehenderit tempor. Occaecat amet consectetur aute esse ad ullamco ad commodo mollit reprehenderit esse in consequat.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End Tabs Dropdown -->
+						</div>
+						<div class="col-xl-6">
+							<!-- Basic Tabs -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Tabs With Icons</h4>
+								</div>
+								<div class="widget-body">
+									<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item">
+											<a class="nav-link active" id="i-base-tab-1" data-toggle="tab" href="#i-tab-1" role="tab" aria-controls="i-tab-1" aria-selected="true"><i class="ion-at mr-2"></i>Tab 1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="i-base-tab-2" data-toggle="tab" href="#i-tab-2" role="tab" aria-controls="i-tab-2" aria-selected="false"><i class="ion-clipboard mr-2"></i>Tab 2</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="i-base-tab-3" data-toggle="tab" href="#i-tab-3" role="tab" aria-controls="i-tab-3" aria-selected="false"><i class="ion-flash mr-2"></i>Tab 3</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link disabled"><i class="ion-edit mr-2"></i>Disabled</a>
+										</li>
+									</ul>
+									<div class="tab-content pt-3">
+										<div class="tab-pane fade show active" id="i-tab-1" role="tabpanel" aria-labelledby="i-base-tab-1">
+											Mauris venenatis rutrum augue vulputate fringilla. Aliquam euismod tempor neque. Ut urna tortor, mattis vitae gravida in, consectetur at est. Nulla eu purus et justo porttitor luctus. Cras sed urna vitae quam interdum varius vel sollicitudin lectus. Proin ullamcorper lacinia justo, eget porta odio egestas sed.
+										</div>
+										<div class="tab-pane fade" id="i-tab-2" role="tabpanel" aria-labelledby="i-base-tab-2">
+											Nam sagittis nec velit vitae molestie. Donec eget luctus sem. Nullam tortor tortor, consequat id lacinia nec, tempus in diam. Phasellus vel molestie purus, ac hendrerit risus. Phasellus non purus lacinia purus fringilla hendrerit. Sed pharetra odio a ante volutpat aliquam id non lacus.
+										</div>
+										<div class="tab-pane fade" id="i-tab-3" role="tabpanel" aria-labelledby="i-base-tab-3">
+											Phasellus elementum ultricies venenatis. Vivamus eget semper ligula. Suspendisse efficitur est ac nisl sollicitudin, ac venenatis libero faucibus. Curabitur dictum pulvinar dui, nec posuere sapien condimentum in. Sed ornare enim quis enim pretium, tempus maximus dolor scelerisque.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End Basic Tabs -->
+						</div>
+						<div class="col-xl-6">
+							<!-- Tabs Dropdown -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Dropdown With Icons</h4>
+								</div>
+								<div class="widget-body">
+									<ul class="nav nav-tabs" role="tablist">
+										<li class="nav-item">
+											<a class="nav-link active" id="i-drop-tab-1" data-toggle="tab" href="#i-d-tab-1" role="tab" aria-controls="i-d-tab-1" aria-selected="true"><i class="ion-leaf mr-2"></i>Tab 1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="i-drop-tab-2" data-toggle="tab" href="#i-d-tab-2" role="tab" aria-controls="i-d-tab-2" aria-selected="false"><i class="ion-pinpoint mr-2"></i>Tab 2</a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												<i class="ion-plus-round mr-2"></i>Dropdown
+												<i class="ion-android-arrow-dropdown"></i>
+											</a>
+											<div class="dropdown-menu">
+												<a class="dropdown-item" id="i-nav-dropdown1-tab" href="#i-nav-dropdown1" role="tab" data-toggle="tab"><i class="ion-pricetag mr-2"></i>Dropdown 1</a>
+												<a class="dropdown-item" id="i-nav-dropdown2-tab" href="#i-nav-dropdown2" role="tab" data-toggle="tab"><i class="ion-speedometer mr-2"></i>Dropdown 2</a>
+											</div>
+										</li>
+									</ul>
+									<div class="tab-content pt-3">
+										<div class="tab-pane fade show active" id="i-d-tab-1" role="tabpanel" aria-labelledby="i-drop-tab-1">
+											Nam sagittis nec velit vitae molestie. Donec eget luctus sem. Nullam tortor tortor, consequat id lacinia nec, tempus in diam. Phasellus vel molestie purus, ac hendrerit risus. Phasellus non purus lacinia purus fringilla hendrerit. Sed pharetra odio a ante volutpat aliquam id non lacus.
+										</div>
+										<div class="tab-pane fade" id="i-d-tab-2" role="tabpanel" aria-labelledby="i-drop-tab-2">
+											Mauris venenatis rutrum augue vulputate fringilla. Aliquam euismod tempor neque. Ut urna tortor, mattis vitae gravida in, consectetur at est. Nulla eu purus et justo porttitor luctus. Cras sed urna vitae quam interdum varius vel sollicitudin lectus. Proin ullamcorper lacinia justo, eget porta odio egestas sed.
+										</div>
+										<div class="tab-pane fade" id="i-nav-dropdown1" role="tabpanel" aria-labelledby="i-nav-dropdown1-tab">
+											Deserunt officia id Lorem nostrud aute id commodo elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad irure in labore cillum elit enim. Consequat aliquip incididunt ipsum et minim laborum laborum laborum et cillum labore.
+										</div>
+										<div class="tab-pane fade" id="i-nav-dropdown2" role="tabpanel" aria-labelledby="i-nav-dropdown2-tab">
+											Proident incididunt esse qui ea nisi ullamco aliquip nostrud velit sint duis. Aute culpa aute cillum sit consectetur mollit minim non reprehenderit tempor. Occaecat amet consectetur aute esse ad ullamco ad commodo mollit reprehenderit esse in consequat.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End Tabs Dropdown -->
+						</div>
+						<div class="col-xl-6">
+							<!-- Justified Tabs -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Justified Tabs</h4>
+								</div>
+								<div class="widget-body">
+									<ul class="nav nav-tabs nav-fill" role="tablist">
+										<li class="nav-item">
+											<a class="nav-link active" id="just-tab-1" data-toggle="tab" href="#j-tab-1" role="tab" aria-controls="j-tab-1" aria-selected="true">Tab 1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="just-tab-2" data-toggle="tab" href="#j-tab-2" role="tab" aria-controls="j-tab-2" aria-selected="false">Tab 2</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="just-tab-3" data-toggle="tab" href="#j-tab-3" role="tab" aria-controls="j-tab-3" aria-selected="false">Tab 3</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link disabled">Disabled</a>
+										</li>
+									</ul>
+									<div class="tab-content pt-3">
+										<div class="tab-pane fade show active" id="j-tab-1" role="tabpanel" aria-labelledby="just-tab-1">
+											Mauris venenatis rutrum augue vulputate fringilla. Aliquam euismod tempor neque. Ut urna tortor, mattis vitae gravida in, consectetur at est. Nulla eu purus et justo porttitor luctus. Cras sed urna vitae quam interdum varius vel sollicitudin lectus. Proin ullamcorper lacinia justo, eget porta odio egestas sed.
+										</div>
+										<div class="tab-pane fade" id="j-tab-2" role="tabpanel" aria-labelledby="just-tab-2">
+											Nam sagittis nec velit vitae molestie. Donec eget luctus sem. Nullam tortor tortor, consequat id lacinia nec, tempus in diam. Phasellus vel molestie purus, ac hendrerit risus. Phasellus non purus lacinia purus fringilla hendrerit. Sed pharetra odio a ante volutpat aliquam id non lacus.
+										</div>
+										<div class="tab-pane fade" id="j-tab-3" role="tabpanel" aria-labelledby="just-tab-3">
+											Phasellus elementum ultricies venenatis. Vivamus eget semper ligula. Suspendisse efficitur est ac nisl sollicitudin, ac venenatis libero faucibus. Curabitur dictum pulvinar dui, nec posuere sapien condimentum in. Sed ornare enim quis enim pretium, tempus maximus dolor scelerisque.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End Justified Tabs -->
+						</div>
+						<div class="col-xl-6">
+							<!-- Justified Dropdown -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Justified Dropdown</h4>
+								</div>
+								<div class="widget-body">
+									<ul class="nav nav-tabs nav-fill" role="tablist">
+										<li class="nav-item">
+											<a class="nav-link active" id="j-drop-tab-1" data-toggle="tab" href="#j-d-tab-1" role="tab" aria-controls="j-d-tab-1" aria-selected="true">Tab 1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="j-drop-tab-2" data-toggle="tab" href="#j-d-tab-2" role="tab" aria-controls="j-d-tab-2" aria-selected="false">Tab 2</a>
+										</li>
+										<li class="nav-item dropdown">
+											<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												Dropdown
+												<i class="ion-android-arrow-dropdown"></i>
+											</a>
+											<div class="dropdown-menu">
+												<a class="dropdown-item" id="j-nav-dropdown1-tab" href="#j-nav-dropdown1" role="tab" data-toggle="tab">Dropdown 1</a>
+												<a class="dropdown-item" id="j-nav-dropdown2-tab" href="#j-nav-dropdown2" role="tab" data-toggle="tab">Dropdown 2</a>
+											</div>
+										</li>
+									</ul>
+									<div class="tab-content pt-3">
+										<div class="tab-pane fade show active" id="j-d-tab-1" role="tabpanel" aria-labelledby="j-drop-tab-1">
+											Nam sagittis nec velit vitae molestie. Donec eget luctus sem. Nullam tortor tortor, consequat id lacinia nec, tempus in diam. Phasellus vel molestie purus, ac hendrerit risus. Phasellus non purus lacinia purus fringilla hendrerit. Sed pharetra odio a ante volutpat aliquam id non lacus.
+										</div>
+										<div class="tab-pane fade" id="j-d-tab-2" role="tabpanel" aria-labelledby="j-drop-tab-2">
+											Mauris venenatis rutrum augue vulputate fringilla. Aliquam euismod tempor neque. Ut urna tortor, mattis vitae gravida in, consectetur at est. Nulla eu purus et justo porttitor luctus. Cras sed urna vitae quam interdum varius vel sollicitudin lectus. Proin ullamcorper lacinia justo, eget porta odio egestas sed.
+										</div>
+										<div class="tab-pane fade" id="j-nav-dropdown1" role="tabpanel" aria-labelledby="j-nav-dropdown1-tab">
+											Deserunt officia id Lorem nostrud aute id commodo elit eiusmod enim irure amet eiusmod qui reprehenderit nostrud tempor. Fugiat ipsum excepteur in aliqua non et quis aliquip ad irure in labore cillum elit enim. Consequat aliquip incididunt ipsum et minim laborum laborum laborum et cillum labore.
+										</div>
+										<div class="tab-pane fade" id="j-nav-dropdown2" role="tabpanel" aria-labelledby="j-nav-dropdown2-tab">
+											Proident incididunt esse qui ea nisi ullamco aliquip nostrud velit sint duis. Aute culpa aute cillum sit consectetur mollit minim non reprehenderit tempor. Occaecat amet consectetur aute esse ad ullamco ad commodo mollit reprehenderit esse in consequat.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End Justified Dropdown -->
+						</div>
+						<div class="col-xl-6">
+							<!-- Vertical Tabs -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Vertical Tabs</h4>
+								</div>
+								<div class="widget-body p-0 d-flex align-items-center">
+									<ul class="nav nav-tabs nav-left flex-column" role="tablist" aria-orientation="vertical">
+										<li class="nav-item">
+											<a class="nav-link active" id="vert-tab-1" data-toggle="tab" href="#v-tab-1" role="tab" aria-controls="v-tab-1" aria-selected="true">Tab 1</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="vert-tab-2" data-toggle="tab" href="#v-tab-2" role="tab" aria-controls="v-tab-2" aria-selected="false">Tab 2</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="vert-tab-3" data-toggle="tab" href="#v-tab-3" role="tab" aria-controls="v-tab-3" aria-selected="false">Tab 3</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link disabled">Disabled</a>
+										</li>
+									</ul>
+									<div class="tab-content d-flex align-items-center">
+										<div class="tab-pane fade show active" id="v-tab-1" role="tabpanel" aria-labelledby="vert-tab-1">
+											Mauris venenatis rutrum augue vulputate fringilla. Aliquam euismod tempor neque. Ut urna tortor, mattis vitae gravida in, consectetur at est. Nulla eu purus et justo porttitor luctus. Cras sed urna vitae quam interdum varius vel sollicitudin lectus. Proin ullamcorper lacinia justo, eget porta odio egestas sed.
+										</div>
+										<div class="tab-pane fade" id="v-tab-2" role="tabpanel" aria-labelledby="vert-tab-2">
+											Nam sagittis nec velit vitae molestie. Donec eget luctus sem. Nullam tortor tortor, consequat id lacinia nec, tempus in diam. Phasellus vel molestie purus, ac hendrerit risus. Phasellus non purus lacinia purus fringilla hendrerit. Sed pharetra odio a ante volutpat aliquam id non lacus.
+										</div>
+										<div class="tab-pane fade" id="v-tab-3" role="tabpanel" aria-labelledby="vert-tab-3">
+											Phasellus elementum ultricies venenatis. Vivamus eget semper ligula. Suspendisse efficitur est ac nisl sollicitudin, ac venenatis libero faucibus. Curabitur dictum pulvinar dui, nec posuere sapien condimentum in. Sed ornare enim quis enim pretium, tempus maximus dolor scelerisque.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End Vertical Tabs -->
+						</div>
+						<div class="col-xl-6">
+							<!-- Vertical Tabs Icons -->
+							<div class="widget has-shadow">
+								<div class="widget-header bordered no-actions d-flex align-items-center">
+									<h4>Vertical Tabs Icons</h4>
+								</div>
+								<div class="widget-body p-0 d-flex align-items-center">
+									<ul class="nav nav-tabs nav-left flex-column" role="tablist" aria-orientation="vertical">
+										<li class="nav-item">
+											<a class="nav-link active" id="i-vert-tab-1" data-toggle="tab" href="#i-v-tab-1" role="tab" aria-controls="i-v-tab-1" aria-selected="true"><i class="ion-at"></i></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="i-vert-tab-2" data-toggle="tab" href="#i-v-tab-2" role="tab" aria-controls="i-v-tab-2" aria-selected="false"><i class="ion-clipboard"></i></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" id="i-vert-tab-3" data-toggle="tab" href="#i-v-tab-3" role="tab" aria-controls="i-v-tab-3" aria-selected="false"><i class="ion-flash"></i></a>
+										</li>
+									</ul>
+									<div class="tab-content d-flex align-items-center">
+										<div class="tab-pane fade show active" id="i-v-tab-1" role="tabpanel" aria-labelledby="i-vert-tab-1">
+											Mauris venenatis rutrum augue vulputate fringilla. Aliquam euismod tempor neque. Ut urna tortor, mattis vitae gravida in, consectetur at est. Nulla eu purus et justo porttitor luctus. Cras sed urna vitae quam interdum varius vel sollicitudin lectus. Proin ullamcorper lacinia justo, eget porta odio egestas sed.
+										</div>
+										<div class="tab-pane fade" id="i-v-tab-2" role="tabpanel" aria-labelledby="i-vert-tab-2">
+											Nam sagittis nec velit vitae molestie. Donec eget luctus sem. Nullam tortor tortor, consequat id lacinia nec, tempus in diam. Phasellus vel molestie purus, ac hendrerit risus. Phasellus non purus lacinia purus fringilla hendrerit. Sed pharetra odio a ante volutpat aliquam id non lacus.
+										</div>
+										<div class="tab-pane fade" id="i-v-tab-3" role="tabpanel" aria-labelledby="i-vert-tab-3">
+											Phasellus elementum ultricies venenatis. Vivamus eget semper ligula. Suspendisse efficitur est ac nisl sollicitudin, ac venenatis libero faucibus. Curabitur dictum pulvinar dui, nec posuere sapien condimentum in. Sed ornare enim quis enim pretium, tempus maximus dolor scelerisque.
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End Vertical Tabs Icons -->
+						</div>
+					</div>
+					<!-- End Row -->
+				</div>
+		</div>
+		<!-- End Page Content -->
+	</div>
+</body>
+</html>
